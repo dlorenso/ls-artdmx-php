@@ -1,4 +1,9 @@
 <?php
+/**
+ * Copyright (c) 2017 D. Dante Lorenso <dante@lorenso.com>.  All Rights Reserved.
+ * This source file is subject to the MIT license that is bundled with this package
+ * in the file LICENSE.txt.  It is also available at: https://opensource.org/licenses/MIT
+ */
 namespace LarkSpark;
 
 /**
@@ -9,6 +14,8 @@ namespace LarkSpark;
 class Debug
 {
     /**
+     * Derived from: http://stackoverflow.com/questions/1057572/how-can-i-get-a-hex-dump-of-a-string-in-php
+     *
      * @param $data
      * @param string $newline
      * @param int $width - number of bytes per line

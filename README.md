@@ -1,9 +1,10 @@
 # ls-artnet-php
 ## Art-Net Broadcast Client for PHP
 
-### Client example
+### Art-Net ArtDmx Client example
 
-Here is an example that sends 4 dmx channels 10 times to each node it finds on the network, and then exits.
+This project provides an ArtDmx Client written in PHP that will set DMX values to an ArtNet node
+using UDP Broadcast.
 
 ```php
 <?php
