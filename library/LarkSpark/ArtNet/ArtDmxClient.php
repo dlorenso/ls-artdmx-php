@@ -79,7 +79,7 @@ class ArtDmxClient
 
         // apply dmx values to payload
         foreach ($dmx as $x => $value) {
-            $payload[$x] = chr($value);
+            $payload[$x] = chr((int)$value);
         }
 
         // calculate low and high byte for DMX bytes
